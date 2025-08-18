@@ -1,0 +1,25 @@
+.user-profile-container {
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.user-profile-name {
+  color: #6366f1;
+  margin-top: 10px;
+}
+
+.user-profile-bio {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #2c3643;
+}
+
+.loading-view-container-user-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

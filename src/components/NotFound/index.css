@@ -1,0 +1,29 @@
+.not-found-page-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.not-found-image {
+  width: 80%;
+  max-width: 400px;
+}
+
+.not-found-page-title {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #f8fafc;
+  margin-bottom: 20px;
+}
+
+.not-found-page-description {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f1f5f9;
+  margin: 0;
+}

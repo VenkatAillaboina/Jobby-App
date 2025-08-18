@@ -1,0 +1,17 @@
+.job-filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #ffffff;
+}
+
+.filter-option {
+  display: flex;
+  gap: 20px;
+}
+
+.separator {
+  border-color: #7e858e;
+  width: 100%;
+  border-width: 1px;
+}

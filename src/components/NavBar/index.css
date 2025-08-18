@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-contanier {
+  width: 100%;
+  background-color: #222;
+  padding: 25px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.app-icon img {
+  width: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-icon img {
+    width: 100px;
+  }
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logout-btn {
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background-color: #5026ab;
+}
+
+.desktop-view {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .desktop-view {
+    display: none;
+  }
+}
+
+.mobile-view {
+  display: none;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 576px) {
+  .mobile-view {
+    background: transparent;
+    border: none;
+    gap: 10px;
+    display: flex;
+  }
+}
